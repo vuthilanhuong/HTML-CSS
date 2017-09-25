@@ -1,0 +1,187 @@
+* {
+	font-family: Tohama, arial;	
+}
+
+/*body {
+	background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
+	background-repeat:no-repeat;
+   	background-size:cover;
+	margin: 0 60px;
+}
+*/
+header {
+	height: 100px;
+}
+
+.logo {
+	float:left;
+	display: inline-block;
+	max-width: 400px;
+}
+.logo img {
+	float:left;
+	width: 25%;
+}
+.logo-text {
+	float: left;
+	margin: 45px 10px; 
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.menu {
+	float:right;
+	margin:10px 2px;
+	color: #000; 	
+	}
+ul li {
+	display: inline-block;
+	margin: 0 5px;
+	color: #000;
+	}
+.element {
+	border-right: 2px solid gray;
+	padding: 1px 3px; 
+	margin: 0 2px;
+	color: #000;
+	}
+.element a img {
+	width: 20px;
+	height: 20px;
+	animation-name: logo-menu;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes logo-menu {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 50;
+	}
+}
+
+.slogan {
+	margin: 40px 0;
+	background-color: #6fa8dc;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/14/71/88/147188ca2751fe77e8ed510be5996b28.jpg")
+	border: 1px solid  #6fa8dc;
+	padding: 20px 30px;
+	color: #fff;
+	/*margin-color: black;
+	border-color: red;*/
+}
+.slogan blockquote {	
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	/*margin-color: black;
+	border-color: red;*/
+}
+.slogan blockquote img {
+	width: 300px;
+	float: left;
+	/*margin-color: black;
+	border-color: red;*/
+}
+.slogan-author {	
+	text-align: right;
+}
+
+/*Phan ARTICLE*/
+article {
+	width: 30%;
+	border: 1px solid #000;
+	display: inline-block;
+	border-radius: 10px; 
+	margin: 5px 12px;
+	height: 200px;
+	overflow: auto;
+}
+
+.article-title {
+	color: black;
+	font-weight: bold;
+	margin: 1em;
+	
+}
+.article-content {
+	margin: 1em;
+}
+.article-image img {
+	margin: 1em;
+	width: 90%;
+}
+
+.article-title a:hover {
+	animation-name: article-title;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes article-title {
+	from {
+		width: 30px;
+	}
+	to {
+		width: 50px;
+		font-size: 20px;
+	}
+}
+.clear-both {
+	clear: both;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+ }
+
+/*.slogan-image {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/14/71/88/147188ca2751fe77e8ed510be5996b28.jpg")
+	height:100%;
+	width:100%;
+	z-index:-1;
+	position:fixed;
+	left: 0px;
+	top: 0px;
+}*/
+.roll {
+	position: fixed;
+  	bottom: 50px;
+  	right: 30px;
+  	padding: 5px;
+
+}
+.roll img {
+	height: 50px;
+	padding: 5px;
+	display: block;
+	background-color: #cae8ca;
+	border: 2px solid #4CAF50;
+	}
+/*Phan footer*/
+footer {
+	background-color:  #6fa8dc;
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	height: 100px;
+
+}
+.footer-title {
+	font-weight: bold;
+	margin-left: 43px;
+}
+.footer-content {
+	font-style: italic;
+}
+.footer-item {
+	float: left;
+	width: 27%;
+	margin: 10px 20px;
+	font-size: 12px;
+}
