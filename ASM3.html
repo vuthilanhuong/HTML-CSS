@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM DEMO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ASM3.css">
+</head>
+<body>
+	<form class="ASM-form" action="https://youtube-api-challenger.appspot.com/member/register" method="POST">
+		<fieldset>
+			<legend>Vui lòng nhập thông tin người dùng</legend>
+			<div class="form-control">
+				<label class="control-title">Username</label>
+				<input type="text" name="username" id="asm-username" placeholder="Tên đăng nhập">
+				<span></span>
+			</div>
+			<div class="form-control">
+				<label class="control-title">Fullname</label>
+				<input type="text" name="fullName" id="asm-fullname" placeholder="Họ và tên">
+				<span></span>
+			</div>
+			<div class="form-control">
+				<label class="control-title">Password</label>
+				<input type="Password" name="password" id="asm-password" placeholder="Nhập Password">
+				<span></span>
+			</div>
+			<div class="form-control">
+				<label class="control-title">Repeat Password</label>
+				<input type="Password" name="repeatpassword" id="asm-repass" placeholder="Nhập lại Password">
+				<span></span>
+			</div>
+			<div class="form-control">
+				<label class="control-title">Birthday</label>
+				<input type="date" name="birthDay" min="1900-01-01" placeholder="mm/dd/yyyy">
+			</div>
+			<div class="form-control">
+				<label class="control-title">Gender</label>
+				<label><input class="nomarl" type="radio" name="gender" value="1" checked="">Male</label>
+				<label><input class="nomarl" type="radio" name="gender" value="2">Female</label> 
+				<label><input class="nomarl" type="radio" name="gender" value="3">Others</label>
+			</div>
+			<div class="form-control">
+				<label class="control-title" for="emailid">Email:</label>
+				<input class="morewidth" type="email" name="email" id="emailid" maxlength="255">
+			</div>
+					<div class="form-control">
+				<label class="control-title">Avatar</label>
+				<input class="morewidth" type="text" name="avatar">
+			</div>
+			
+			<div class="form-control">
+				<label class="control-title"> &nbsp;</label> 
+				<input class="button-control" type="submit" name="submit" value="Submit">
+				<input class="button-control" type="reset" name="reset" value="Reset">
+			</div>
+			</fieldset>
+		</form>
+	<script type="text/javascript" src="ASM3.js"></script>
+</body>
+</html>
