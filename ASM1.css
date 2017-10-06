@@ -1,0 +1,172 @@
+* {
+	font-family: Tohama;
+	}
+body {
+	background-image: url(images/bg-body-top.jpg);
+	background-repeat: no-repeat;	
+}
+/*HEADER PART*/
+header {
+	height: 150px;
+}
+.logo {
+	margin-left: 11%;
+	float: left;	
+}
+.logo img {
+	height: 116px;
+}
+.menu {
+	float: left;
+	margin-top: 10px;
+}
+.menu li {
+	display: inline-block;
+	font-size: 11px;
+	border:5px white solid;
+	padding: 2px 2em;
+	font-weight: bold;
+	background-color: pink;
+	border-radius: 10px;
+	height: 15px;
+}
+.register {
+	border:5px pink solid;
+	border-radius: 50%;
+	background-color: #d31068;
+	font-size: 20px;
+	font-weight: bold;
+	float:right;
+	margin-right: 20px;
+	color: white;
+	padding: 7px 7px;
+	margin-bottom: 10px;
+}
+
+/*BAR PART*/
+.bar {
+	background-color: #dd0d6e;	
+	height: 29px;	
+	padding-left: 88px;
+}
+.bar a {
+	color: white; 
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px 40px;
+	text-align: center;
+}
+.change:hover {
+	animation-name: changecolor;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes changecolor {
+	from {
+	}
+	to {
+		color: black;
+	}
+}
+/*NAV PART*/
+nav {	
+	float: left;
+	font-weight: bold;
+	font-style: italic;	
+	width: 20%;
+}
+.button {
+	display: block;
+	border-radius: 10px;
+	background-color:#dd0d6e;
+	height: 23px;
+	width: 120px;
+	padding: 5px 15px 0;
+	margin: 10px 0;
+	color: white;
+	border: 1px solid white;
+}
+.button:hover {
+	animation-name: changecolor;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+.buttondetail {
+	color:#d67d2a;
+}
+/*SELECTION PART*/
+section {	
+    float: left;
+    width: 70%;
+    border-left: 1px double #dd0d6e;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.major img {
+	width: 91%;
+	border-radius: 45px;
+}
+.detail {
+	float: left;	
+}
+.detail img {
+	border-radius: 10px;
+	padding: 2px 2px;
+	width: 335px;
+}
+.detail img:hover {
+	animation-name: bigger;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes bigger {
+	from {
+	}
+	to {
+		width: 340px;
+	}
+}
+
+/*PLEASE-READ PART*/
+.mustread {
+	background: #e0baf2;
+	display: inline-block;
+	line-height: 15px;
+	border-radius: 10px;
+	font-size: 12px;
+	width: 677px;
+	text-align: justify;
+}
+.read-left {
+	float: left;
+	width: 36%;
+	display: inline-block;
+	padding-left: 10px;
+}
+.read-right {
+	float: left;
+	width: 36%;
+	margin-left: 10%;
+	display: inline-block;
+	padding-right: 10px;
+}
+.read-title {
+	font-weight: bold;
+	font-size: 13px;
+	color: #dd0d6e;
+}
+.read-img img {
+	width: 200px;
+}
+/*FOOTER PART*/
+.footer-bar {
+	background-color: #dd0d6e;
+	height: 10px;
+}
+.footer-text {
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+}
+
